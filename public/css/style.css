@@ -1,0 +1,29 @@
+
+img{
+    width : 250px;
+}
+
+body{
+    color: black;
+    padding: 0 20px;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.main{
+    flex-grow: 1;
+}
+
+
+footer{
+    color: grey;
+    border-top : 2px solid #eeeeee;
+    margin-top: 10px;
+}
+
+
+header a{
+    color:lightslategray;
+    text-decoration: none;
+    margin-right: 16px;
+}
