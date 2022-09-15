@@ -8,7 +8,7 @@ const msg3 = document.querySelector(`#msg3`)
 form.addEventListener(`submit`,(e) => {
     e.preventDefault()
     const location = search.value
-    const url = `weather?address=`+location
+    const url = `/weather?address=`+location
     msg1.textContent='Loading...'
     msg2.textContent = ''
     msg3.textContent = ``
